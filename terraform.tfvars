@@ -74,11 +74,11 @@ hub_service_gateway_display_name  = "A1-OCI-ASH-H-VCN-SGW"
 
 # ---------------------HUB Management Subnet Variables-------------------------
 
-#hub_mgmt_subnet_cidr_block                 = "10.0.0.128/26"
-#hub_mgmt_subnet_display_name               = "sub-mgmt-hub-iad"
-#hub_mgmt_subnet_prohibit_public_ip_on_vnic = true
-#hub_mgmt_security_list_display_name        = "sl-mgmt-hub-iad"
-#hub_mgmt_route_table_display_name          = "rt-mgmt-hub-iad"
+hub_mgmt_subnet_cidr_block                 = "10.0.0.128/26"
+hub_mgmt_subnet_display_name               = "sub-mgmt-hub-iad"
+hub_mgmt_subnet_prohibit_public_ip_on_vnic = true
+hub_mgmt_security_list_display_name        = "sl-mgmt-hub-iad"
+hub_mgmt_route_table_display_name          = "rt-mgmt-hub-iad"
 
 
 #-----------------------HUB Trusted Subnet Variables--------------------------
@@ -138,27 +138,27 @@ prod_pvt_lb_route_table_display_name          = "A1-OCI-ASH-P-RT-NW"
 
 ## ---------------------PROD PUBLIC LB Subnet Variables------------------------
 #
-#prod_pub_lb_subnet_cidr_block                 = "11.0.1.128/25"
-#prod_pub_lb_subnet_display_name               = "sub-pub-lb-prod-iad"
-#prod_pub_lb_subnet_prohibit_public_ip_on_vnic = true
-#prod_pub_lb_security_list_display_name        = "sl-pub-lb-prod-iad"
-#prod_pub_lb_route_table_display_name          = "rt-pub-lb-prod-iad"
+prod_pub_lb_subnet_cidr_block                 = "11.0.1.128/25"
+prod_pub_lb_subnet_display_name               = "sub-pub-lb-prod-iad"
+prod_pub_lb_subnet_prohibit_public_ip_on_vnic = true
+prod_pub_lb_security_list_display_name        = "sl-pub-lb-prod-iad"
+prod_pub_lb_route_table_display_name          = "rt-pub-lb-prod-iad"
 #
 ## ---------------------PROD EXADATA Subnet Variables------------------------
 #
-#prod_exa_subnet_cidr_block                 = "11.0.2.0/25"
-#prod_exa_subnet_display_name               = "sub-exa-prod-iad"
-#prod_exa_subnet_prohibit_public_ip_on_vnic = true
-#prod_exa_security_list_display_name        = "sl-exa-prod-iad"
-#prod_exa_route_table_display_name          = "rt-exa-prod-iad"
+prod_exa_subnet_cidr_block                 = "11.0.2.0/25"
+prod_exa_subnet_display_name               = "sub-exa-prod-iad"
+prod_exa_subnet_prohibit_public_ip_on_vnic = true
+prod_exa_security_list_display_name        = "sl-exa-prod-iad"
+prod_exa_route_table_display_name          = "rt-exa-prod-iad"
 #
 ## -----------------------PROD DMZ Subnet Variables--------------------------
 #
-#prod_dmz_subnet_cidr_block                 = "11.0.2.128/25"
-#prod_dmz_subnet_display_name               = "sub-dmz-prod-iad"
-#prod_dmz_subnet_prohibit_public_ip_on_vnic = true
-#prod_dmz_security_list_display_name        = "sl-dmz-prod-sub-iad"
-#prod_dmz_route_table_display_name          = "rt-dmz-prod-sub-iad"
+prod_dmz_subnet_cidr_block                 = "11.0.2.128/25"
+prod_dmz_subnet_display_name               = "sub-dmz-prod-iad"
+prod_dmz_subnet_prohibit_public_ip_on_vnic = true
+prod_dmz_security_list_display_name        = "sl-dmz-prod-sub-iad"
+prod_dmz_route_table_display_name          = "rt-dmz-prod-sub-iad"
 
 #-----------------------------------------------------------------------------
 #                         NON PROD Variables
@@ -200,27 +200,27 @@ non_prod_pvt_lb_route_table_display_name          = "A1-OCI-PHX-NP-RT-NW"
 
 # ---------------------NON-PROD PUBLIC LB Subnet Variables------------------------
 
-#non_prod_pub_lb_subnet_cidr_block                 = "12.0.1.128/25"
-#non_prod_pub_lb_subnet_display_name               = "sub-pub-lb-non-prod-phx"
-#non_prod_pub_lb_subnet_prohibit_public_ip_on_vnic = true
-#non_prod_pub_lb_security_list_display_name        = "sl-pub-lb-non-prod-phx"
-#non_prod_pub_lb_route_table_display_name          = "rt-pub-lb-non-prod-phx"
+non_prod_pub_lb_subnet_cidr_block                 = "12.0.1.128/25"
+non_prod_pub_lb_subnet_display_name               = "sub-pub-lb-non-prod-phx"
+non_prod_pub_lb_subnet_prohibit_public_ip_on_vnic = true
+non_prod_pub_lb_security_list_display_name        = "sl-pub-lb-non-prod-phx"
+non_prod_pub_lb_route_table_display_name          = "rt-pub-lb-non-prod-phx"
 
 # ---------------------NON-PROD EXADATA Subnet Variables------------------------
 
-#non_prod_exa_subnet_cidr_block                 = "12.0.2.0/25"
-#non_prod_exa_subnet_display_name               = "sub-exa-non-prod-phx"
-#non_prod_exa_subnet_prohibit_public_ip_on_vnic = true
-#non_prod_exa_security_list_display_name        = "sl-exa-non-prod-phx"
-#non_prod_exa_route_table_display_name          = "rt-exa-non-prod-phx"
+non_prod_exa_subnet_cidr_block                 = "12.0.2.0/25"
+non_prod_exa_subnet_display_name               = "sub-exa-non-prod-phx"
+non_prod_exa_subnet_prohibit_public_ip_on_vnic = true
+non_prod_exa_security_list_display_name        = "sl-exa-non-prod-phx"
+non_prod_exa_route_table_display_name          = "rt-exa-non-prod-phx"
 
 # -----------------------NON-PROD DMZ Subnet Variables--------------------------
 
-#non_prod_dmz_subnet_cidr_block                 = "12.0.2.128/25"
-#non_prod_dmz_subnet_display_name               = "sub-dmz-non-prod-phx"
-#non_prod_dmz_subnet_prohibit_public_ip_on_vnic = true
-#non_prod_dmz_security_list_display_name        = "sl-dmz-non-prod-phx"
-#non_prod_dmz_route_table_display_name          = "rt-dmz-non-prod-phx"
+non_prod_dmz_subnet_cidr_block                 = "12.0.2.128/25"
+non_prod_dmz_subnet_display_name               = "sub-dmz-non-prod-phx"
+non_prod_dmz_subnet_prohibit_public_ip_on_vnic = true
+non_prod_dmz_security_list_display_name        = "sl-dmz-non-prod-phx"
+non_prod_dmz_route_table_display_name          = "rt-dmz-non-prod-phx"
 
  #-----------------------------------------------------------------------------
  #				BASTION
